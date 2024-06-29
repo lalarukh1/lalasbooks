@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-fancy {
+    font-family: "Playwrite GB S", cursive;
+}
+
+.top-40 {
+    top: 40px;
+}
+
+.color-one {
+    color: #C03E0EFF;
+}
+
+.color-two {
+    color: #F1D25DFF;
+}
+
+.color-three {
+    color: #1d90b2;
+}
+
+.color-four {
+    color: rgb(182, 12, 105);
+}
+
+.bg-color-four {
+    background-color: rgb(182, 12, 105);
+}
+
+.card-bar,
+.table-bar,
+.todo-bar{
+    border-right: 4px solid rgb(182, 12, 105);
+}
+
+.bar {
+    border-right: 4px solid #fff;
+}
